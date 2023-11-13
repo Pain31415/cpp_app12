@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="str_lib">
+      <UniqueIdentifier>{0b23256a-203d-4f49-bea8-c69469cd739e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="str_lib.cpp">
+      <Filter>str_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>str_lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="str_lib.h">
+      <Filter>str_lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
